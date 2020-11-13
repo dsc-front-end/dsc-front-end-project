@@ -162,8 +162,12 @@ a:nth-child(4) {
 }
 
 @media screen and (max-width: 768px) {
+  html,
   body {
     overflow-x: hidden;
+  }
+  body {
+    position: relative;
   }
   /* nav */
   .nav-container {
@@ -235,6 +239,9 @@ a:nth-child(4) {
   .video {
     margin-top: 20%;
   }
+  .first-topic {
+    margin: 0 1.5rem;
+  }
   /* info */
   .info-container {
     display: flex;
@@ -291,5 +298,8 @@ a:nth-child(4) {
   .last-topic {
     text-align: center;
     margin-bottom: 0.625rem;
+  }
+  .footer-text {
+    margin: 0 2rem;
   }
 }
