@@ -180,8 +180,8 @@ a:nth-child(4) {
   .nav-items {
     position: absolute;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
+    height: 89vh;
+    top: 7vh;
     background-color: white;
     width: 100%;
     display: flex;
@@ -238,8 +238,6 @@ a:nth-child(4) {
   }
   .video {
     margin-top: 20%;
-  }
-  .first-topic {
   }
   /* info */
   .info-container {
