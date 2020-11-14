@@ -4,12 +4,14 @@
   --background-blue: #0611f9;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: monospace;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   overflow-x: hidden;
