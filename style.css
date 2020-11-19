@@ -19,6 +19,7 @@ body {
 /* navbar */
 
 .nav-container {
+  background-color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -163,7 +164,7 @@ a:nth-child(4) {
   padding: 2.5rem 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   html,
   body {
     overflow-x: hidden;
@@ -182,8 +183,8 @@ a:nth-child(4) {
   .nav-items {
     position: absolute;
     right: 0px;
-    height: 89vh;
-    top: 7vh;
+    height: 92vh;
+    top: 8vh;
     background-color: white;
     width: 100%;
     display: flex;
@@ -246,7 +247,7 @@ a:nth-child(4) {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 2rem;
+    margin: 2rem 1rem 0 1rem;
   }
   .acadmy-icons {
     display: block;
